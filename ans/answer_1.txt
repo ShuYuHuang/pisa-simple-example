@@ -1,0 +1,14 @@
+1. 請修改threshold
+
+# 調低，出現的框框會比較多，照理來講會有更多不準的框出現
+random_show_inference(model,score_thr=0.1)
+# 調高，出現的框框會比較少，照理來講會留下更少框，但是框的準度會更高
+# 在這個例子可能導致
+random_show_inference(model,score_thr=0.3)
+
+2. 請試著使用其他的模型設定跑跑看
+!mim download mmdet --config yolox_tiny_8x8_300e_coco --dest .
+model = init_detector("yolox_tiny_8x8_300e_coco.py",
+                      "yolox_tiny_8x8_300e_coco_20211124_171234-b4047906.pth",
+                      device=device)
+random_show_inference(model)

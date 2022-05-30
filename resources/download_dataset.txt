@@ -1,0 +1,4 @@
+mkdir -p data/coco
+curl -L "https://public.roboflow.com/ds/teSUuBdtOy?key=MSfxYe5Fz3" > data/coco/roboflow.zip
+unzip -f data/coco/roboflow.zip -d data/coco
+rm -rf data/coco/roboflow.zip

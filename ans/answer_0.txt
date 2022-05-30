@@ -1,0 +1,28 @@
+1. 當然class的annotations可能有偏側，可以自行試著畫出每個class偏側情況
+
+
+plt.figure(figsize=(10,10))
+for e,c in enumerate(classes[1:],start=1):
+    single_clss_objects=coco_obj.loadAnns(coco_obj.getAnnIds(catIds=e))
+    class_xy=np.array([*map(get_xy,single_clss_objects)])
+    plt.scatter(class_xy[:,0],1-class_xy[:,1],alpha=0.6,s=15,label=c)
+    
+plt.xlim([0,1])
+plt.ylim([0,1])
+plt.legend()
+plt.show()
+
+2. Dataset 的主題是西洋棋，有特定規則，試著畫出黑棋與白棋偏側情況
+
+black_cids=[k for k,v in coco_obj.cats.items() if "black" in v["name"]]
+white_cids=[k for k,v in coco_obj.cats.items() if "white" in v["name"]]
+
+plt.figure(figsize=(10,10))
+plt.rcParams['axes.facecolor'] = 'gray'
+for ids,name in zip((black_cids,white_cids),("black","white")):
+    single_clss_objects=coco_obj.loadAnns(coco_obj.getAnnIds(catIds=ids))
+    all_xy=np.array([*map(get_xy,single_clss_objects)])
+    plt.scatter(all_xy[:,0],1-all_xy[:,1],alpha=0.6,s=15,label=name,color=name)
+
+plt.legend()
+plt.show()

@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# ML Stuffs
+data
+checkpoint
+checkpoints
+work_dirs
+*.pth
+**/*.pth

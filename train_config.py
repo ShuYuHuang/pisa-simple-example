@@ -4,8 +4,17 @@ _base_ = ['pisa_faster_rcnn_x101_32x4d_fpn_1x_coco.py']
 # We also need to change the num_classes in head to match the dataset's annotation
 model = dict(
     roi_head=dict(
-        bbox_head=dict(num_classes=13)))
-
+        bbox_head=dict(
+            num_classes=13)),
+    train_cfg=dict(
+        rpn_proposal=dict(
+            nms_pre=200,
+            max_per_img=200)),
+    test_cfg=dict(
+        rpn=dict(
+            nms_pre=200,
+            max_per_img=200))
+)
 # Modify dataset related settings
 dataset_type = 'COCODataset'
 classes = ('bishop',

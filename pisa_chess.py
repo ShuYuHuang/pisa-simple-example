@@ -1,5 +1,5 @@
 # The new config inherits a base config to highlight the necessary modification
-_base_ = ['pisa_faster_rcnn_x101_32x4d_fpn_1x_coco.py']
+_base_ = ['downloads/pisa_faster_rcnn_x101_32x4d_fpn_1x_coco.py']
 
 # We also need to change the num_classes in head to match the dataset's annotation
 model = dict(
@@ -42,7 +42,7 @@ data = dict(
         classes=classes,
         ann_file='data/coco/valid/_annotations.coco.json'),
     test=dict(
-        img_prefix='test/',
+        img_prefix='data/coco/test/',
         classes=classes,
         ann_file='data/coco/test/_annotations.coco.json',
         pipeline=[

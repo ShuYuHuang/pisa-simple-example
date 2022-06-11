@@ -1,4 +1,4 @@
 git pull
 git add .
-git commit -m "First Upload: tools brought from mmdet, IPyNotebook for Data Inspection(chess dataset), Infernece, Training and Testing, 1st version, train config for chess dataset"
+git commit -m "finetuned PISA| visualization enhancement for testing part| trained FasterRCNN for comparison"
 git push

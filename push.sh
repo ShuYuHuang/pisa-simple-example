@@ -1,4 +1,4 @@
 git pull
 git add .
-git commit -m "finetuned PISA| visualization enhancement for testing part| trained FasterRCNN for comparison"
+git commit -m "fintuned supplementary part for showing how to calculate HLR."
 git push

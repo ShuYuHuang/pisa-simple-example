@@ -1,4 +1,4 @@
 git pull
 git add .
-git commit -m "fintuned supplementary part for showing how to calculate HLR."
+git commit -m "install mmdet==2.24.1 for Colab"
 git push

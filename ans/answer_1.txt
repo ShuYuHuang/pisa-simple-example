@@ -7,8 +7,8 @@ random_show_inference(model,score_thr=0.1)
 random_show_inference(model,score_thr=0.3)
 
 2. 請試著使用其他的模型設定跑跑看
-!mim download mmdet --config yolox_tiny_8x8_300e_coco --dest .
-model = init_detector("yolox_tiny_8x8_300e_coco.py",
-                      "yolox_tiny_8x8_300e_coco_20211124_171234-b4047906.pth",
+!mim download mmdet --config yolox_tiny_8x8_300e_coco --dest ./downloads
+model = init_detector("./downloads/yolox_tiny_8x8_300e_coco.py",
+                      "./downloads/yolox_tiny_8x8_300e_coco_20211124_171234-b4047906.pth",
                       device=device)
 random_show_inference(model)

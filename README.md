@@ -2,15 +2,21 @@
 Simple implementation of PISA algorithm on a small dataset using MMDetection
 
 ## Please Flollow These Tutorials
-🔥0.Data-Inspection[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ShuYuHuang/pisa-simple-example/blob/main/0_Download%26ViewData.ipynb)
+- [X] 🔥0.Data-Inspection[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ShuYuHuang/pisa-simple-example/blob/main/0_Download%26ViewData.ipynb)
 
-🔥1.MMDet & Inference With Pretrained Weight[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ShuYuHuang/pisa-simple-example/blob/main/1_MMDetection%26PISA_Inference.ipynb)
+- [X] 🔥1.MMDet & Inference With Pretrained Weight[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ShuYuHuang/pisa-simple-example/blob/main/1_MMDetection%26PISA_Inference.ipynb)
 
-🔥2.Training Faster RCNN with PISA[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ShuYuHuang/pisa-simple-example/blob/main/2_Training_PISA.ipynb)
+- [X] 🔥2.Training Faster RCNN with PISA[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ShuYuHuang/pisa-simple-example/blob/main/2_Training_PISA.ipynb)
 
-🔥3.Test & Inference[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ShuYuHuang/pisa-simple-example/blob/main/3_Test_Inference_PISA.ipynb)
+- [X] 🔥3.Test & Inference[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ShuYuHuang/pisa-simple-example/blob/main/3_Test_Inference_PISA.ipynb)
 
-🔥Supplementary. What's Going on in ROI Head[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ShuYuHuang/pisa-simple-example/blob/main/supp_ROI_Head_toy_example.ipynb)
+- [X] 🔥Supplementary. What's Going on in ROI Head[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ShuYuHuang/pisa-simple-example/blob/main/supp_ROI_Head_toy_example.ipynb)
+
+## Exercices 
+- [X] 0.Data-Inspection
+- [X] 1.MMDet & Inference With Pretrained Weight
+- [X] 2.Training Faster RCNN with PISA
+- [X] Supplementary. What's Going on in ROI Head
 
 @article{mmdetection,
   title   = {{MMDetection}: Open MMLab Detection Toolbox and Benchmark},

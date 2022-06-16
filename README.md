@@ -29,8 +29,3 @@ Simple implementation of PISA algorithm on a small dataset using MMDetection
   journal= {arXiv preprint arXiv:1906.07155},
   year={2019}
 }
-
-
-
-
-

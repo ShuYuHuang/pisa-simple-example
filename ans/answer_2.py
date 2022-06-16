@@ -1,5 +1,6 @@
+# 前面先include base config
 _base_ = ['pisa_chess.py']
-
+# 要求改NMS
 model = dict(
     train_cfg=dict(
         rpn_proposal=dict(

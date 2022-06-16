@@ -8,7 +8,7 @@ Simple implementation of PISA algorithm on a small dataset using MMDetection
 
 - [X] 🔥2.Training Faster RCNN with PISA[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ShuYuHuang/pisa-simple-example/blob/main/2_Training_PISA.ipynb)
 
-- [X] 🔥3.Test & Inference[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ShuYuHuang/pisa-simple-example/blob/main/3_Test_Inference_PISA.ipynb)
+- [X] 🔥3.Test & Inference[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ShuYuHuang/pisa-simple-example/blob/main/3_Test%26Inference_PISA.ipynb)
 
 - [X] 🔥Supplementary. What's Going on in ROI Head[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ShuYuHuang/pisa-simple-example/blob/main/supp_ROI_Head_toy_example.ipynb)
 

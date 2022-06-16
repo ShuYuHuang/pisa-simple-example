@@ -1,2 +1,2 @@
 調整beta值看看對random normal亂數分布有何影響?
-若將beta縮小會使得random左偏，反之右偏
+若將beta縮小會使得random右偏，反之左偏
